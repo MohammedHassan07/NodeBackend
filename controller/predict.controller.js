@@ -3,7 +3,6 @@ import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
 
 const predict = async (req, res) => {
 
-
     try {
 
         const data = req.body
